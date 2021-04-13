@@ -1,3 +1,7 @@
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
 .navbar-header img {
     height: 100%;
     margin-right: 0px;
@@ -15,8 +19,25 @@
 
 #jumbotron {
     background-image: url("../img/bg-banner-home.jpg");
-    height: 300px;
+    width: 100%;
+    min-height: 337px;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-    padding: 40px 0;
+    padding: 40px 20px;
     margin-top: 51px;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+}
+
+.col_jumbotron {
+    padding: 0 20px;
+}
+
+#container_deploy_app {
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: black;
+    padding: 20px 20px;
 }
