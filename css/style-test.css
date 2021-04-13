@@ -1,0 +1,23 @@
+.navbar-header img {
+    height: 100%;
+    margin-right: 0px;
+}
+
+#btn_nav_right {
+    padding: 0px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
+}
+
+#jumbotron {
+    background-image: url("../img/bg-banner-home.jpg");
+    height: 300px;
+    background-position: center;
+    padding: 40px 0;
+    margin-top: 51px;
+}
+
+.prova {
+    background: white;
+}
