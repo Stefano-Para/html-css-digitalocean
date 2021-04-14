@@ -3,28 +3,7 @@ body {
     font-family: 'Mukta', sans-serif;
 }
 
-#jumbotron {
-    background-image: url("../img/bg-banner-home.jpg");
-    width: 100%;
-    min-height: 337px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 40px 20px;
-    margin-top: 51px;
-    color: white;
-    font-family: 'Mukta', sans-serif;
+.text_deploy_scale h2,
+.text_deploy_scale p {
+    color: #031c4e;
 }
-
-.col_jumbotron {
-    padding: 0 20px;
-}
-
-#container_deploy_app {
-    background-color: white;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    color: black;
-    padding: 20px 20px;
-}
-

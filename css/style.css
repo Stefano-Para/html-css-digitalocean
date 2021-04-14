@@ -105,19 +105,23 @@ h1 {
     text-decoration: underline;
 }
 
-/* MAIN  
-container logos 1/7 main  */
-.container_logos {
+/* main */
+/* MAIN  1/7 container logos  */
+#container_logos {
     background-color: #f3f5f9;
     padding: 20px 0;
 }
-.container_logos h5 {
+#container_logos h5 {
     margin: 30px 0;
     color: #6f7b97;
 }
-.container_logos h6>a {
+#container_logos h6>a {
     color: #006aff;
 }
+
+
+/* main 2/7 container deploy&scale  */
+
 
 
 
