@@ -1,22 +1,42 @@
+/* common  */
 body {
     font-family: 'Mukta', sans-serif;
 }
 
+
+
+/* navbar  */
 .navbar-header img {
     height: 100%;
     margin-right: 0px;
 }
-
 #btn_nav_right {
     padding: 0px;
     height: 50px;
     line-height: 50px;
     vertical-align: middle;
 }
+#btn_nav_right>button {
+    color: #217dff;
+    border-color: #217dff;    
+}
+.navbar-default .navbar-nav>li>a {
+    color: #031c4e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #217dff;
+}
+/* navbar burgericon  */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+/* IMPORTANTE - SERVE PER NON FARE ESPLODERE LA NAVBAR!!  */
 .nav>li>a {
     padding: 15px 10px;
 }
+/* /IMPORTANTE - SERVE PER NON FARE ESPLODERE LA NAVBAR!!  */
 
+/* jumbotron  */
 #jumbotron {
     background-image: url("../img/bg-banner-home.jpg");
     width: 100%;
@@ -29,15 +49,87 @@ body {
     color: white;
     font-family: 'Mukta', sans-serif;
 }
-
-.col_jumbotron {
-    padding: 0 20px;
+h1 {
+    font-size: 55px;
+    font-weight: bold;
 }
-
+#p_left {
+    font-size: 18px;
+}
 #container_deploy_app {
     background-color: white;
     border: 1px solid transparent;
     border-radius: 5px;
     color: black;
-    padding: 20px 20px;
+    padding: 15px 25px;
 }
+#container_deploy_app>h4 {
+    color: #031c4e;
+    font-weight: bold;
+}
+#container_deploy_app>p {
+    color: #006aff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+#container_deploy_app input {
+    margin-bottom: 10px;
+}
+#container_deploy_app button {
+    display: block;
+    width: 100%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#button_blue_jbt {
+    background-color: #579aff;
+}
+#button_white_jbt {
+    position: relative;
+}
+#container_deploy_app button>img {
+    position: absolute;
+    left: 5px;
+    top: 6px;
+    height: 15px;
+    line-height: 15px;
+    vertical-align: middle;
+}
+#container_deploy_app>p:last-child {
+    margin-top: 15px;
+    color: black;
+    font-size: 80%;
+}
+#container_deploy_app>p:last-child>a {
+    text-decoration: underline;
+}
+
+/* MAIN  
+ container logos 1/7 main  */
+ .container_logos {
+     background-color: #f3f5f9;
+     height: 250px;
+     padding: 30px 0;
+ }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    h1 {
+        font-size: 40px !important;
+        font-weight: bold;
+    }
+    
+  }
+
+
+

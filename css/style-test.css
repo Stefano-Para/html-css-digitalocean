@@ -1,4 +1,8 @@
 
+body {
+    font-family: 'Mukta', sans-serif;
+}
+
 #jumbotron {
     background-image: url("../img/bg-banner-home.jpg");
     width: 100%;
