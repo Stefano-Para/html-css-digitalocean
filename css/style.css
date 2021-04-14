@@ -121,8 +121,26 @@ h1 {
 
 
 /* main 2/7 container deploy&scale  */
+.container_deploy_scale {
+    height: 1000px;
+}
+.text_deploy_scale {
+    margin: 50px 0;
+    padding: 0 40px;
+}
 
-
+.text_deploy_scale h2 {
+    color: #031c4e;
+    font-weight: bold;
+}
+.text_deploy_scale p {
+    color: #747f9a;
+    font-weight: bold;
+}
+.contained_80 {
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 
