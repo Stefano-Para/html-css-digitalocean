@@ -106,12 +106,18 @@ h1 {
 }
 
 /* MAIN  
- container logos 1/7 main  */
- .container_logos {
-     background-color: #f3f5f9;
-     height: 250px;
-     padding: 30px 0;
- }
+container logos 1/7 main  */
+.container_logos {
+    background-color: #f3f5f9;
+    padding: 20px 0;
+}
+.container_logos h5 {
+    margin: 30px 0;
+    color: #6f7b97;
+}
+.container_logos h6>a {
+    color: #006aff;
+}
 
 
 
@@ -127,6 +133,12 @@ h1 {
     h1 {
         font-size: 40px !important;
         font-weight: bold;
+    }
+    .container_logos img {
+      width: 95%;
+      height: 69px;
+      line-height: 69px;
+      vertical-align: middle;
     }
     
   }
