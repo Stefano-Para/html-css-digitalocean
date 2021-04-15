@@ -6,6 +6,12 @@ body {
 
 
 /* navbar  */
+/* .navbar-collapse.collapse:not(.in) {
+    display: none!important;
+} */
+
+
+
 .navbar-header img {
     height: 100%;
     margin-right: 0px;
@@ -200,6 +206,16 @@ h1 {
 /* region section 5/7 main  */
 #region_container {
     background-color: #0038b4;
+    color: white;
+    padding: 30px 15px 40px;
+}
+#region_container h2 {
+    font-weight: bold;
+    margin-top: 50px;
+}
+.row_inner>[class*="col-"]:not(.row_inner>div:last-child) {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
 }
 
 
