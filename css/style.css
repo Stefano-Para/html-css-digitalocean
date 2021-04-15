@@ -115,7 +115,8 @@ h1 {
     margin: 30px 0;
     color: #6f7b97;
 }
-#container_logos h6>a {
+#container_logos h6>a,
+#feature_container {
     color: #006aff;
 }
 
@@ -156,14 +157,20 @@ h1 {
     color: #031c4e;
     font-weight: bold;
 }
+/* impostazione da tenere per non fare esplodere colonne  */
 .contained_80>div {
+    min-height: 210px;
     margin-bottom: 20px;
 }
 .contained_80 img {
     margin-bottom: 15px;
 }
 
-/* designed 1/7 main  */
+.contained_80 p {
+    font-size: 15px;
+}
+
+/* designed 3/7 main  */
 #designed_container {
     background-color: #f3f5f9;
     padding: 40px 20px;
@@ -184,9 +191,18 @@ h1 {
     color:#579aff;
     font-weight: normal;
 }
-#circles_designed i:first-child {
+#circles_designed>a:first-child i {
     font-weight: bold;
 }
+
+/* feature section 4/7 main  */
+
+/* region section 5/7 main  */
+#region_container {
+    background-color: #0038b4;
+}
+
+
 
 
 
@@ -214,6 +230,9 @@ h1 {
 
 
 @media screen and (max-width: 767px) {
+    #container_deploy_app {
+        margin-top: 30px;
+    }
     #container_img_designed {
         margin: 50px auto 20px;
     }
