@@ -213,15 +213,28 @@ h1 {
     font-weight: bold;
     margin-top: 50px;
 }
-#region_container .row {
-    margin-bottom: 10px;
+#region_container .row_inner {
+    line-height: 35px;
+    height: 35px;
+    vertical-align: middle;
+    font-size: 12px;
 }
-
+#region_container .region_col {
+    margin: 30px 0;
+}
 .row_inner {
     padding: 5px 15px;
 }
 .row_inner:not(:last-child) {
     border-bottom: 1px solid white;
+}
+.row_inner a {
+    color: #00d5d2;
+}
+.row_inner a:hover {
+    color: white;
+    text-decoration: none;
+}
 }
 
 
