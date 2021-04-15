@@ -213,12 +213,14 @@ h1 {
     font-weight: bold;
     margin-top: 50px;
 }
-
-.riga {
-    margin: 5px 10px;
+#region_container .row {
+    margin-bottom: 10px;
 }
-.riga:not(.riga:last-child) {
-    padding-bottom: 5px;
+
+.row_inner {
+    padding: 5px 15px;
+}
+.row_inner:not(:last-child) {
     border-bottom: 1px solid white;
 }
 
