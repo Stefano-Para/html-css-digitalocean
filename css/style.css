@@ -213,10 +213,16 @@ h1 {
     font-weight: bold;
     margin-top: 50px;
 }
-.row_inner>[class*="col-"]:not(.row_inner>div:last-child) {
-    border-bottom: 1px solid white;
-    padding-bottom: 5px;
+
+.riga {
+    margin: 5px 10px;
 }
+.riga:not(.riga:last-child) {
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+
 
 
 
